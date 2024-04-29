@@ -10,16 +10,40 @@ body{
     font-family: "Fredoka", sans-serif;
 }
 
+/* codice corpo pagina */
+
 #container{
     width: 75%;
     margin: 0 auto;
     text-align: center;
     /* DEBUG */
-    background-color: aqua;
-    height: 500px;
+    /* background-color: aqua;
+    height: 500px; */
 }
 
+/* codice header */
 header h1{
     padding: 30px 0;
     color: #e53170;
+}
+
+header p{
+    padding-bottom: 40px;
+}
+
+/* codice cards */
+.col{
+    width: calc((100% / 3) - 40px);
+    float: left;
+    margin: 0 20px;
+
+    /* DEBUG */
+    background-color: #e53170;
+    height: 100px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
