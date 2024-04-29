@@ -9,3 +9,12 @@
 body{
     font-family: "Fredoka", sans-serif;
 }
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    /* DEBUG */
+    background-color: aqua;
+    height: 500px;
+}
