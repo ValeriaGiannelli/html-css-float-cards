@@ -11,10 +11,15 @@ body{
 }
 
 #container{
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
     /* DEBUG */
     background-color: aqua;
     height: 500px;
+}
+
+header h1{
+    padding: 30px 0;
+    color: #e53170;
 }
