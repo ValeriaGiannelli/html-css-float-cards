@@ -32,14 +32,45 @@ header p{
 }
 
 /* codice cards */
+.row div{
+    height: 100px;
+}
+
 .col{
     width: calc((100% / 3) - 40px);
     float: left;
     margin: 0 20px;
+    background-color: #0f0d17;
+    box-shadow: 0px 0px 5px 5px #c5c5c5;
+}
 
-    /* DEBUG */
-    background-color: #e53170;
-    height: 100px;
+.col div{
+    float: left;
+}
+
+.immagine-profilo img{
+    height: 100%;
+}
+
+.dati-profilo{
+    text-align: left;
+    line-height: 27px;
+    padding: 10px;
+    color: white;
+
+
+    /* Volevo allineare l'immagine alla scritta, ma non funziona */
+    /* height: 100px;
+    line-height: 100px;
+    vertical-align: center; */
+}
+
+.dati-profilo h3{
+    text-transform: uppercase;
+}
+
+.mail{
+    color: #5491af;
 }
 
 .row::after{
