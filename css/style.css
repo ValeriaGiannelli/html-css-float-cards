@@ -32,6 +32,10 @@ header p{
 }
 
 /* codice cards */
+.row{
+    padding-bottom: 50px;
+}
+
 .row div{
     height: 100px;
 }
